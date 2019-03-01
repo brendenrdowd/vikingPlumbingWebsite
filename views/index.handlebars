@@ -12,7 +12,7 @@
           <a class="nav-link js-scroll-trigger" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          <a class="nav-link js-scroll-trigger" href="#projects">Services</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
@@ -27,8 +27,15 @@
   <div class="container d-flex h-100 align-items-center">
     <div class="mx-auto text-center">
       <h1 class="mx-auto my-0 text-uppercase">Viking Plumbing</h1>
-      <h2 class="text-white-50 mx-auto mt-2 mb-5">Serving the Greater Seattle Area since 1996</h2>
-      <a href="#signup" class="btn btn-primary js-scroll-trigger">Request an appointment</a>
+      <h2 class="text-white-50 mx-auto mt-2 mb-5">Commitment to Perfection
+        <br>
+        BBB Award Winner
+        <br>
+        Bonded & Insured
+        <br>
+        Serving Puget Sound since 1996
+</h2>
+      <a href="#signup" class="btn btn-primary js-scroll-trigger shadow">Request an appointment</a>
     </div>
   </div>
 </header>
@@ -39,10 +46,11 @@
     <div class="row">
       <div class="col-lg-8 mx-auto">
         <h2 class="text-white mb-4">About Us</h2>
-        <p class="text-white-50">Viking Plumbing & Rooter is your go to for all of your residential plumbing needs.
-          From service work to full installs, we have you covered. There is no job too big or too small. We pride
-          ourselves on our quality work, and can guarantee our customers satisfaction 100% of the time. Give us a
-          call today to get your project started!</p>
+        <p class="text-white-50 my-3">Matt Ross, Owner</p>
+        <p class="text-white-50 my-3">Viking Plumbing & Rooter was founded in 1996 to serve property management companies and real estate with the best plumbing and drain cleaning service possible. Since then, our mission and services have expanded to fit every need in, or out of your home. Viking Plumbing & Rooter has grown one man to an entire team of hard-working people delivering the best service in the Greater Seattle Area.</p>
+        <p class="text-white-50 my-3">Being a plumber for 33 years and owning my own business for 23 years in the Puget Sound has made me one of the top plumbing contractors in the state of Washington. Throughout the last 23 years of working for multi-family housing, I have seen just about everything in the trade that you can see. My team and I will, and always have provided the best craftsmanship that this trade can give to you.</p>
+        <p class="text-white-50 my-3">All of the equipment is owned and operated by Viking Plumbing & Rooter.</p>
+        <p class="text-white-50 my-3">Lic #: VIKINGPRO32DE</p>
       </div>
     </div>
     <img src="img/ipad.png" class="img-fluid" alt="">
@@ -61,8 +69,7 @@
       <div class="col-xl-4 col-lg-5">
         <div class="featured-text text-center text-lg-left">
           <h4>Services</h4>
-          <p class="text-black-50 mb-0">Here we can do a list, a table, or a brief paragraph describing what services
-            you offer.</p>
+          <p class="text-black-50 mb-0">Viking Plumbing and Rooter offers a wide range of residential/in-home and commerical property services.</p>
         </div>
       </div>
     </div>
@@ -75,10 +82,22 @@
       <div class="col-lg-6">
         <div class="bg-black text-center h-100 project">
           <div class="d-flex h-100">
-            <div class="project-text w-100 my-auto text-center text-lg-left">
+            <div class="project-text w-100 my-auto text-center text-lg-left p-4">
               <h4 class="text-white">Residential</h4>
-              <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else,
-                along with a description.</p>
+              <ul class="mb-0 text-white-50 list-unstyled">
+                <li>Excavation/landscaping services</li>
+                <li>Bathroom/bathtub drain cleaning</li>
+                <li>Toilet clearing/repair</li>
+                <li>Sink fixture and faucet repair</li>
+                <li>Shower fixture and drain repairs</li>
+                <li>Kitchen sink repiping and drain cleaning</li>
+                <li>Washing machine installation/repairs</li>
+                <li>Dishwasher installation/repairs</li>
+                <li>Sewer line inspections and leak repairs</li>
+                <li>Septic systems</li>
+                <li>Water heater installations and maintenance</li>
+                <li>Pipe replacement/repair of broken, blocked, or corroded pipes</li>
+              </ul>
               <hr class="d-none d-lg-block mb-0 ml-0">
             </div>
           </div>
@@ -94,10 +113,20 @@
       <div class="col-lg-6 order-lg-first">
         <div class="bg-black text-center h-100 project">
           <div class="d-flex h-100">
-            <div class="project-text w-100 my-auto text-center text-lg-right">
+            <div class="project-text w-100 my-auto text-center text-lg-right p-4">
               <h4 class="text-white">Commerical</h4>
-              <p class="mb-0 text-white-50">Another example of a project with its respective description. These
-                sections work well responsively as well, try this theme on a small screen!</p>
+              <ul class="mb-0 text-white-50 list-unstyled">
+                <li>Excavation/landscaping services</li>
+                <li>Plumbing replacement/repair</li>
+                <li>Plumbing retro-fit: complete replumb of property (sewer/water)</li>
+                <li>Water, Sewer, and Gas</li>
+                <li>Drain cleaning</li>
+                <li>Water jetting</li>
+                <li>Camera inspections</li>
+                <li>Downspout replacement/repair</li>
+                <li>Conveyance/rainwater system cleaning and replacement</li>
+                <li>Building foundation footing systems cleaning/replacement</li>
+              </ul>
               <hr class="d-none d-lg-block mb-0 mr-0">
             </div>
           </div>
@@ -131,17 +160,17 @@
             </div>
         {{/if}}
         <form action="/appointment" method="POST">
-          <div class="form-inline d-flex mx-auto my-0 py-0">
+          <div class="form-inline d-flex mx-auto m-0 py-0">
             <div class="form-group my-2 flex-fill my-0">
               <input type="text" class="form-control form-control-lg mr-0 mr-sm-2 mb-3 mb-sm-0 flex-fill" id="fname"
                 name="fname" placeholder="Enter first name...">
             </div>
-            <div class="form-group my-2 flex-fill my-0">
+            <div class="form-group my-2 flex-fill m-0">
               <input type="text" class="form-control form-control-lg mr-0 mr-sm-2 mb-3 mb-sm-0 flex-fill" id="lname"
                 name="lname" placeholder="Enter last name...">
             </div>
           </div>
-          <div class="form-group my-2 form-inline d-flex">
+          <div class="form-group my-2 form-inline d-flex mt-0">
             <input type="email" class="form-control form-control-lg mr-0 mr-sm-2 mb-3 mb-sm-0 flex-fill" id="email"
               name="email" placeholder="Enter email address...">
           </div>
@@ -154,6 +183,7 @@
               rows="3" placeholder="What's the problem?"></textarea>
           </div>
           <button type="submit" class="btn btn-primary mx-auto">Request Appointment</button>
+          <div class="g-recaptcha d-flex justify-content-center mt-2" data-sitekey="6LdOxYoUAAAAAAfXN34pPfNE668p2psiBUDJxUcp"></div>
         </form>
 
       </div>
@@ -173,7 +203,7 @@
             <i class="fas fa-map-marked-alt text-primary mb-2"></i>
             <h4 class="text-uppercase m-0">Address</h4>
             <hr class="my-4">
-            <div class="small text-black-50">Kent, WA, 98035
+            <div class="small text-black-50">PO Box 777 <br> Kent, WA 98035
             </div>
           </div>
         </div>
@@ -186,7 +216,7 @@
             <h4 class="text-uppercase m-0">Email</h4>
             <hr class="my-4">
             <div class="small text-black-50">
-              <a href="#">hello@yourdomain.com</a>
+              <a href="mailto:vikingp@comcast.net">vikingp@comcast.net</a>
             </div>
           </div>
         </div>
@@ -198,7 +228,7 @@
             <i class="fas fa-mobile-alt text-primary mb-2"></i>
             <h4 class="text-uppercase m-0">Phone</h4>
             <hr class="my-4">
-            <div class="small text-black-50">(425) 264-3276</div>
+            <div class="small text-black-50">(253)332-4692</div>
           </div>
         </div>
       </div>
@@ -227,7 +257,7 @@
         </div>
       </div> -->
 
-  <div class="social d-flex justify-content-center">
+  {{!-- <div class="social d-flex justify-content-center">
     <a href="#" class="mx-2">
       <i class="fab fa-twitter"></i>
     </a>
@@ -237,7 +267,7 @@
     <a href="#" class="mx-2">
       <i class="fab fa-yelp"></i>
     </a>
-  </div>
+  </div> --}}
 
   </div>
 </section>

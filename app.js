@@ -48,6 +48,9 @@ app.post('/appointment', function (req, res) {
     }
     if(req.session.error.length > 0){
         res.redirect('/#signup')
+    // }
+    // if(req.response){
+    //     //recaptcha
     }else{
         
         let mailOpts, smtpTrans;
