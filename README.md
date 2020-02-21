@@ -9,7 +9,7 @@ There are two ways to do this, one, I walk you through everything and you can do
 ## Heroku
 
 Let's start with Heroku, this is the foundation for everything, you'll need to create an account at [Heroku.com](https://www.signup.heroku.com). 
-Then you'll need to look at the [pricing plans](https://www.heroku.com/pricing), you might be ok with the hobby package for $7 a month but I would recommend the standard professional package for 25+ a month (depending on usage)because of the risk of running a slow website. 
+Then you'll need to look at the [pricing plans](https://www.heroku.com/pricing), you might be ok with the hobby package for $7 a month but I would recommend the standard professional package for 25+ a month (depending on usage) because of the risk of running a slow website. 
 
 You won't need to worry about the postgres, redis or apache pricing options as we're not using any of those. 
 
@@ -41,7 +41,7 @@ Also, back on heroku, you'll want to update your domains under the setting tab o
 Quick note, the captcha is waiting on a domain to be registered to, I'll get into that next. 
 
 ## reCaptcha
-Finally, you need to go to Google's [reCaptcha](https://www.google.com/recaptcha/intro/v3.html#) website and register. Once you've registered you need to assign this domain to the reCaptcha. This is very specific. The code is already embedded so you won't need to worry about that, but you wil get an "API KEY" and you'll need to pass that to the CONFIG VARS on your heroku. 
+Finally, you need to go to Google's [reCaptcha](https://www.google.com/recaptcha/intro/v3.html#) website and register. Once you've registered you need to assign this domain to the reCaptcha. This is very specific. The code is already embedded so you won't need to worry about that, but you wil get an "API KEY" and you'll need to pass that to the CONFIG VARS on your heroku, with the key of recaptcha_API and the value of whatever google gave you. 
 
 
 
