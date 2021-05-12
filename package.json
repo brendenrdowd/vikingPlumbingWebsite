@@ -38,7 +38,7 @@
         "jquery": "^3.4.1",
         "jquery.easing": "^1.4.1",
         "mongoose": "^5.9.1",
-        "nodemailer": "^4.6.7",
+        "nodemailer": "^6.4.16",
         "path": "^0.12.7"
     },
     "devDependencies": {
